@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <!-- Base board -->
+  <rect x="40" y="60" width="120" height="80" rx="4" fill="#22c55e"/> <!-- Green PCB -->
+  <!-- IC -->
+  <rect x="75" y="80" width="50" height="40" rx="2" fill="#1e293b"/>
+  <!-- Pins left -->
+  <rect x="30" y="70" width="10" height="15" fill="#94a3b8"/>
+  <rect x="30" y="90" width="10" height="15" fill="#94a3b8"/>
+  <rect x="30" y="110" width="10" height="15" fill="#94a3b8"/>
+  <!-- Pins right -->
+  <rect x="160" y="65" width="10" height="12" fill="#94a3b8"/>
+  <rect x="160" y="85" width="10" height="12" fill="#94a3b8"/>
+  <rect x="160" y="105" width="10" height="12" fill="#94a3b8"/>
+  <rect x="160" y="125" width="10" height="12" fill="#94a3b8"/>
+  <!-- Capacitors -->
+  <rect x="50" y="90" width="10" height="20" fill="#eab308"/>
+  <rect x="140" y="90" width="10" height="20" fill="#eab308"/>
+  <!-- Text -->
+  <text x="100" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">HX711 Amplifier</text>
+</svg>
