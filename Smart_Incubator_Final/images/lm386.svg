@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <!-- Base board -->
+  <rect x="40" y="40" width="120" height="120" rx="8" fill="#1e3a8a"/> <!-- Blue PCB -->
+  <!-- IC -->
+  <rect x="70" y="70" width="60" height="40" rx="2" fill="#1e293b"/>
+  <!-- IC Pins -->
+  <rect x="75" y="60" width="6" height="10" fill="#94a3b8"/>
+  <rect x="85" y="60" width="6" height="10" fill="#94a3b8"/>
+  <rect x="95" y="60" width="6" height="10" fill="#94a3b8"/>
+  <rect x="105" y="60" width="6" height="10" fill="#94a3b8"/>
+  <rect x="115" y="60" width="6" height="10" fill="#94a3b8"/>
+  
+  <rect x="75" y="110" width="6" height="10" fill="#94a3b8"/>
+  <rect x="85" y="110" width="6" height="10" fill="#94a3b8"/>
+  <rect x="95" y="110" width="6" height="10" fill="#94a3b8"/>
+  <rect x="105" y="110" width="6" height="10" fill="#94a3b8"/>
+  <rect x="115" y="110" width="6" height="10" fill="#94a3b8"/>
+  <!-- Potentiometer -->
+  <rect x="50" y="125" width="25" height="25" fill="#3b82f6"/>
+  <circle cx="62.5" cy="137.5" r="8" fill="#fff"/>
+  <line x1="62.5" y1="129.5" x2="62.5" y2="145.5" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="54.5" y1="137.5" x2="70.5" y2="137.5" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Mic cylinder -->
+  <circle cx="140" cy="90" r="15" fill="#94a3b8"/>
+  <circle cx="140" cy="90" r="10" fill="#0f172a"/>
+  <!-- Pins -->
+  <rect x="70" y="160" width="10" height="20" fill="#94a3b8"/>
+  <rect x="90" y="160" width="10" height="20" fill="#94a3b8"/>
+  <rect x="110" y="160" width="10" height="20" fill="#94a3b8"/>
+  <!-- Text -->
+  <text x="100" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">LM386 Sound</text>
+</svg>

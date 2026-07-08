@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <!-- Aluminum Bar -->
+  <rect x="20" y="70" width="160" height="60" rx="5" fill="#cbd5e1"/>
+  <!-- Holes -->
+  <circle cx="40" cy="100" r="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="65" cy="100" r="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="135" cy="100" r="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="160" cy="100" r="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Center Cutout -->
+  <path d="M 85 85 Q 100 100 85 115 L 115 115 Q 100 100 115 85 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Strain gauge white paste -->
+  <rect x="90" y="80" width="20" height="10" rx="2" fill="#f1f5f9"/>
+  <!-- Wires -->
+  <path d="M 100 90 Q 120 40 180 50" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 98 90 Q 120 30 180 40" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 102 90 Q 120 20 180 30" fill="none" stroke="#22c55e" stroke-width="3"/>
+  <path d="M 96 90 Q 120 10 180 20" fill="none" stroke="#eab308" stroke-width="3"/>
+  <!-- Text -->
+  <text x="100" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">Load Cell (Aluminum)</text>
+</svg>

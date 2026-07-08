@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Environmental Monitoring System For Neonatal Incubator</title>
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter">
+        <span class="current-slide">1</span> / <span class="total-slides">20</span>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+    </div>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+
+            <!-- Slide 1: Hero -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="hero-content" style="align-items: flex-start; text-align: left;">
+                            <div class="logos-container anim-elem">
+                                <img src="images/logo_1.jpeg" alt="University Logo">
+                                <img src="images/logo_2.jpeg" alt="Faculty Logo">
+                            </div>
+                            <h1 class="hero-title anim-elem" style="font-size: 2.5rem; line-height: 1.3; margin-bottom: 1rem;">
+                                Smart Environmental Monitoring System<br>
+                                For Neonatal Incubator
+                            </h1>
+                            <p class="hero-subtitle anim-elem" style="margin-left: 0; text-align: left; max-width: 100%;">A comprehensive IoT-based upgrade kit designed to enhance conventional incubators with real-time monitoring, automated control, and remote access capabilities.</p>
+                            
+                            <div style="display: flex; gap: 4rem; margin-top: 1rem;" class="anim-elem">
+                                <div>
+                                    <h4 style="color: var(--accent-teal); font-size: 1.2rem; text-transform: uppercase;">Faculty of Applied Health Sciences Technology</h4>
+                                    <p style="font-size: 1.4rem; font-weight: 600;">Menoufia University - Technology of Biomedical Equipment</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-container anim-img">
+                            <img src="images/hero.png" class="image-cover" alt="Smart Incubator">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Abstract -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Abstract</h2>
+                            <h3 class="slide-subtitle anim-elem">System Overview</h3>
+                            <p class="anim-elem">Premature infants require a carefully controlled environment to maintain physiological stability. This project introduces a smart monitoring and control system for neonatal incubators.</p>
+                            <p class="anim-elem">It utilizes multiple sensors to measure <strong>temperature, humidity, air quality, sound levels, and infant weight</strong> in real time. A central microcontroller processes the data to regulate the environment and trigger alarms when necessary.</p>
+                            <p class="anim-elem">IoT integration allows healthcare professionals to monitor the neonate remotely via a mobile app, ensuring a rapid response to any critical changes.</p>
+                        </div>
+                        <div class="image-container anim-img">
+                            <img src="images/hero.png" class="image-cover" alt="Overview">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Importance of Incubators -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="image-container anim-img">
+                            <img src="images/control.png" class="image-cover" alt="Incubator Care">
+                        </div>
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Clinical Importance</h2>
+                            <h3 class="slide-subtitle anim-elem">Why Neonatal Incubators Matter</h3>
+                            <ul>
+                                <li class="anim-elem"><strong>Thermoregulation:</strong> Prevents hypothermia by maintaining a neutral thermal environment.</li>
+                                <li class="anim-elem"><strong>Respiratory Support:</strong> Delivers controlled oxygen and CPAP therapy.</li>
+                                <li class="anim-elem"><strong>Infection Control:</strong> Provides a sealed physical barrier against airborne pathogens.</li>
+                                <li class="anim-elem"><strong>Fluid Homeostasis:</strong> High humidity prevents transepidermal water loss.</li>
+                                <li class="anim-elem"><strong>Continuous Observation:</strong> Real-time monitoring of vital signs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Problem Statement -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Problem Statement</h2>
+                            <h3 class="slide-subtitle anim-elem">The Need for an Upgrade</h3>
+                            <p class="anim-elem">Traditional neonatal incubators lack integrated smart monitoring capabilities, requiring constant manual supervision by nursing staff.</p>
+                            <p class="anim-elem">While commercial "Smart Incubators" exist, they are extremely expensive, placing a heavy financial burden on developing healthcare facilities.</p>
+                            <div class="anim-elem" style="background: var(--bg-primary); padding: 1.5rem; border-left: 5px solid var(--accent-teal); border-radius: 8px; margin-top: 1rem;">
+                                <p style="color: var(--accent-blue); font-weight: 600; margin: 0;">Our project bridges this gap by creating a highly capable, low-cost upgrade kit that retrofits existing traditional incubators into intelligent, IoT-enabled life-support systems.</p>
+                            </div>
+                        </div>
+                        <div class="image-container anim-img" style="background: var(--bg-primary); padding: 4rem;">
+                            <!-- Alert Icon -->
+                            <svg fill="none" stroke="var(--accent-blue)" viewBox="0 0 24 24" style="width:100%; height:100%; opacity:0.8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Project Objectives -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Project Objectives</h2>
+                        <h3 class="slide-subtitle anim-elem">Key Goals of the System</h3>
+                        <div class="feature-grid" style="margin-top: 2rem;">
+                            <div class="feature-card anim-elem">
+                                <h3 style="display:flex; align-items:center; gap:10px;">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                    Environmental Control
+                                </h3>
+                                <p>Continuously monitor and automatically regulate incubator air temperature and humidity.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3 style="display:flex; align-items:center; gap:10px;">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                                    Physiological Tracking
+                                </h3>
+                                <p>Monitor the infant's core body temperature and precise weight changes continuously.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3 style="display:flex; align-items:center; gap:10px;">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    Hazard Detection
+                                </h3>
+                                <p>Assess air quality (MQ135) and environmental noise levels (LM386) to prevent neonatal stress.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3 style="display:flex; align-items:center; gap:10px;">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.906 14.142 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path></svg>
+                                    IoT Connectivity
+                                </h3>
+                                <p>Transmit all sensor readings wirelessly to a dedicated mobile application for remote tracking.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Proposed Solution -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">The Proposed Solution</h2>
+                            <h3 class="slide-subtitle anim-elem">A Smart Upgrade Kit</h3>
+                            <p class="anim-elem">We developed a modular, plug-and-play electronics suite that attaches to conventional incubators.</p>
+                            <ul>
+                                <li class="anim-elem"><strong>Cost-Effective:</strong> Avoids the need to purchase entirely new incubator units.</li>
+                                <li class="anim-elem"><strong>Comprehensive:</strong> Merges 5 different sensing modalities into one dashboard.</li>
+                                <li class="anim-elem"><strong>Fail-Safe:</strong> Includes local LCD and buzzer alarms that function even if Wi-Fi drops.</li>
+                            </ul>
+                        </div>
+                        <div class="image-container anim-img" style="background: var(--bg-primary); padding: 4rem;">
+                            <!-- Hardware Icon -->
+                            <svg fill="none" stroke="var(--accent-teal)" viewBox="0 0 24 24" style="width:100%; height:100%; opacity:0.8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: System Architecture -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">System Architecture</h2>
+                            <h3 class="slide-subtitle anim-elem">4-Layer Design Philosophy</h3>
+                            <ul>
+                                <li class="anim-elem"><strong>1. Sensing Layer:</strong> DHT22, DS18B20, MQ135, LM386, and Load Cell gather raw data.</li>
+                                <li class="anim-elem"><strong>2. Processing Layer:</strong> Arduino UNO acts as the core, executing logic.</li>
+                                <li class="anim-elem"><strong>3. Actuation Layer:</strong> SSR controls AC heating; Fans manage humidity.</li>
+                                <li class="anim-elem"><strong>4. Interface Layer:</strong> LCD, Alarms, and ESP32 Wi-Fi gateway to the app.</li>
+                            </ul>
+                        </div>
+                        <div class="anim-img mermaid-container">
+                            <div class="mermaid">
+                                graph TD
+                                    A[Sensors] -->|Data| B(Arduino UNO)
+                                    B -->|UART| C[ESP32 Gateway]
+                                    B -->|Control| D[SSR / Heater / Fan]
+                                    B -->|I2C| E[LCD & Alarms]
+                                    C -->|Wi-Fi| F((Neo Care App))
+                                    style B fill:#0ea5e9,stroke:#fff,stroke-width:2px,color:#fff
+                                    style C fill:#14b8a6,stroke:#fff,stroke-width:2px,color:#fff
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Hardware Components Overview -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="image-container anim-img" style="display: flex; flex-wrap: wrap; gap: 10px; padding: 20px; background: #fff; align-items: center; justify-content: center;">
+                            <img src="images/arduino.png" style="width: 45%; height: 45%; object-fit: contain;">
+                            <img src="images/esp32.png" style="width: 45%; height: 45%; object-fit: contain;">
+                            <img src="images/dht22.png" style="width: 45%; height: 45%; object-fit: contain;">
+                            <img src="images/ds18b20.png" style="width: 45%; height: 45%; object-fit: contain;">
+                        </div>
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Hardware Overview</h2>
+                            <h3 class="slide-subtitle anim-elem">Core Modules</h3>
+                            <ul>
+                                <li class="anim-elem"><strong>Microcontrollers:</strong> Arduino UNO & ESP32-CAM.</li>
+                                <li class="anim-elem"><strong>Sensors:</strong> DHT22, DS18B20, MQ135, LM386, Load cell with HX711 Amplifier.</li>
+                                <li class="anim-elem"><strong>Actuators:</strong> Solid-State Relay (SSR), DC Ventilation Fan.</li>
+                                <li class="anim-elem"><strong>Interface:</strong> 16x4 I2C LCD Display, 5V Buzzer, LED Indicators, Push Button.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Justification - Microcontrollers -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Hardware Specifications</h2>
+                        <h3 class="slide-subtitle anim-elem">Processing: Arduino UNO & ESP32</h3>
+                        <div class="justification-card anim-elem">
+                            <div class="component-img-container">
+                                <img src="images/arduino.png" class="component-img" alt="Arduino UNO">
+                                <img src="images/esp32.png" class="component-img" alt="ESP32">
+                            </div>
+                            <div class="justification-text">
+                                <h3>Dual-Processor Architecture</h3>
+                                <p><strong>Arduino UNO (ATmega328P):</strong> Chosen for its robust 5V logic which interfaces perfectly with relays and analog sensors. It operates at 16MHz and handles life-critical sensor polling and actuator control continuously, ensuring the core medical functions never freeze.</p>
+                                <div class="specs-list"><span>Arduino Specs:</span> 5V Operating Voltage | 14 Digital I/O | 6 Analog Inputs</div>
+                                
+                                <p style="margin-top:1rem;"><strong>ESP32:</strong> Acts as a dedicated high-speed communication gateway. Operating at 240MHz with built-in Wi-Fi, it offloads all network tasks from the Arduino, preventing network latency from delaying the heating control loop.</p>
+                                <div class="specs-list"><span>ESP32 Specs:</span> 3.3V Logic | Built-in Wi-Fi 802.11 b/g/n | Dual-Core Tensilica LX6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Justification - Temp & Humidity -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Hardware Specifications</h2>
+                        <h3 class="slide-subtitle anim-elem">Environmental: DHT22 & DS18B20</h3>
+                        <div class="justification-card anim-elem">
+                            <div class="component-img-container">
+                                <img src="images/dht22.png" class="component-img" alt="DHT22">
+                                <img src="images/ds18b20.png" class="component-img" alt="DS18B20">
+                            </div>
+                            <div class="justification-text">
+                                <h3>Precision Thermoregulation</h3>
+                                <p><strong>DHT22 (Ambient Temp & Hum):</strong> Provides pre-calibrated digital outputs. It offers exceptional long-term stability and accuracy compared to the cheaper DHT11, which is crucial for preventing neonatal hypothermia.</p>
+                                <div class="specs-list"><span>DHT22 Specs:</span> Temp Range: -40 to 80°C (±0.5°C) | Hum Range: 0-100% (±2%)</div>
+                                
+                                <p style="margin-top:1rem;"><strong>DS18B20 (Infant Body Temp):</strong> A digital thermometer utilizing the 1-Wire bus. Because it sends data digitally, it is completely immune to electrical noise from AC heaters and motors, ensuring perfect body temperature readings.</p>
+                                <div class="specs-list"><span>DS18B20 Specs:</span> Temp Range: -55°C to +125°C | Accuracy: ±0.5°C | Waterproof</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Justification - Weight -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Hardware Specifications</h2>
+                        <h3 class="slide-subtitle anim-elem">Measurement: HX711 & Load Cell</h3>
+                        <div class="justification-card anim-elem">
+                            <div class="component-img-container">
+                                <img src="images/loadcell.svg" class="component-img" alt="Load Cell">
+                                <img src="images/hx711.svg" class="component-img" alt="HX711">
+                            </div>
+                            <div class="justification-text">
+                                <h3>Micro-Weight Tracking</h3>
+                                <p><strong>Aluminum Load Cell (20kg):</strong> Placed securely under the incubator mattress. It converts physical pressure into an electrical resistance change (strain gauge) to track the neonate's growth.</p>
+                                <p style="margin-top:1rem;"><strong>HX711 Amplifier:</strong> The resistance change from the load cell is in millivolts, far too small for the Arduino to read. The HX711 is a precision 24-bit Analog-to-Digital Converter designed specifically for weigh scales, allowing us to detect weight fluctuations down to the gram without removing the infant from the incubator.</p>
+                                <div class="specs-list"><span>HX711 Specs:</span> 24-bit high precision ADC | Selectable Gain (32, 64, 128) | I2C-like interface</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: Justification - Air & Sound -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Hardware Specifications</h2>
+                        <h3 class="slide-subtitle anim-elem">Hazard Detection: MQ135 & LM386</h3>
+                        <div class="justification-card anim-elem">
+                            <div class="component-img-container">
+                                <img src="images/mq135.svg" class="component-img" alt="MQ135">
+                                <img src="images/lm386.svg" class="component-img" alt="LM386">
+                            </div>
+                            <div class="justification-text">
+                                <h3>Holistic Hazard Detection</h3>
+                                <p><strong>MQ135 (Air Quality):</strong> Standard incubators monitor oxygen, but the MQ135 detects harmful gases like ammonia, CO2, benzene, and alcohol vapors. This protects the infant's respiratory system from airborne cleaning chemicals.</p>
+                                <div class="specs-list"><span>MQ135 Specs:</span> Target gases: NH3, NOx, Alcohol, CO2 | Analog output proportional to gas concentration</div>
+                                
+                                <p style="margin-top:1rem;"><strong>LM386 (Sound Sensor):</strong> The rapidly developing cochlear pathways of a neonate are sensitive to noise (>45dB causes stress). This sensor features an adjustable gain amplifier acting as an acoustic sentinel to alert staff of excessive ambient noise.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Justification - Actuation -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Hardware Specifications</h2>
+                        <h3 class="slide-subtitle anim-elem">Actuation: Solid-State Relay (SSR)</h3>
+                        <div class="justification-card anim-elem">
+                            <div class="component-img-container">
+                                <img src="images/ssr.svg" class="component-img" alt="SSR" style="height: 250px;">
+                            </div>
+                            <div class="justification-text">
+                                <h3>Silent & Safe AC Switching</h3>
+                                <p>To control the high-voltage AC heater, we explicitly selected a <strong>Solid-State Relay (SSR)</strong> instead of a traditional mechanical electromagnetic relay.</p>
+                                <p style="margin-top:1rem;"><strong>Clinical Benefit:</strong> Mechanical relays produce a loud "clicking" sound when switching, inducing acoustic stress in neonates. SSRs use internal opto-couplers to switch loads completely silently. Furthermore, SSRs generate zero electrical arcing (sparking) inside the oxygen-rich incubator environment, eliminating fire hazards.</p>
+                                <div class="specs-list"><span>SSR Specs:</span> Input: 3-32V DC | Output: 24-380V AC | Zero-Cross Switching | Complete Opto-Isolation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Software Implementation -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Software Architecture</h2>
+                            <h3 class="slide-subtitle anim-elem">Embedded Logic</h3>
+                            <ul>
+                                <li class="anim-elem"><strong>Environment:</strong> Developed entirely in Arduino IDE using C/C++.</li>
+                                <li class="anim-elem"><strong>Libraries:</strong> `DHT.h`, `OneWire.h`, `DallasTemperature.h`, `HX711.h`, and `LiquidCrystal_I2C.h` streamline hardware interfacing.</li>
+                                <li class="anim-elem"><strong>Control Loop:</strong> The main `loop()` continuously polls sensors without using blocking delays (`millis()` timing), ensuring instant alarm response.</li>
+                                <li class="anim-elem"><strong>Calibration:</strong> Sensor offsets (e.g., subtracting 500g for mattress weight) are handled directly in software.</li>
+                            </ul>
+                        </div>
+                        <div class="image-container anim-img" style="background: var(--bg-primary); padding: 4rem;">
+                            <!-- Code Icon -->
+                            <svg fill="none" stroke="var(--accent-blue)" viewBox="0 0 24 24" style="width:100%; height:100%; opacity:0.8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Alarm System -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper text-content" style="align-items: center; text-align: center;">
+                        <h2 class="slide-title anim-elem">Alarm & Notification System</h2>
+                        <h3 class="slide-subtitle anim-elem">Fail-Safe Emergency Response</h3>
+                        <div class="feature-grid" style="text-align: left; margin-top: 2rem; width: 100%;">
+                            <div class="feature-card anim-elem">
+                                <h3>Threshold Logic</h3>
+                                <p>Temp < 26°C or > 35°C. Humidity < 50% or > 60%. Noise > 600. Air Quality > 500 PPM.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>Local Indicators</h3>
+                                <p>A flashing Red LED and a piercing 1500Hz Buzzer tone activate instantly upon fault detection.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>LCD Diagnosis</h3>
+                                <p>The 16x4 I2C LCD dynamically overwrites the screen to show the exact source of the error (e.g., "!! DANGER: High Temp !!").</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>Mute Protocol</h3>
+                                <p>A physical hardware push-button allows nurses to silence the buzzer, but the Red LED remains ON until the physical fault is fully cleared.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 16: IoT & Communication -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="image-container anim-img">
+                            <img src="images/app.png" class="image-cover" alt="Neo Care App">
+                        </div>
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">IoT Integration</h2>
+                            <h3 class="slide-subtitle anim-elem">The Neo Care App</h3>
+                            <p class="anim-elem">We decouple the critical life-support logic from the internet using UART communication. The Arduino sends a string of sensor values to the ESP32.</p>
+                            <ul>
+                                <li class="anim-elem"><strong>Wi-Fi Connectivity:</strong> ESP32 connects to the hospital's local network using TCP/IP protocol.</li>
+                                <li class="anim-elem"><strong>Web Service:</strong> Data is pushed via HTTP to a cloud database.</li>
+                                <li class="anim-elem"><strong>Mobile Application:</strong> Doctors can view live temperature graphs, weight logs, and receive instant push notifications if an alarm triggers, from anywhere in the world.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 17: Testing & Validation -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Testing & Validation</h2>
+                            <h3 class="slide-subtitle anim-elem">Ensuring Reliability</h3>
+                            <ul>
+                                <li class="anim-elem"><strong>Sensor Calibration:</strong> The MQ135 was pre-heated for 24 hours and base-lined in fresh air (180 reading). The Load Cell was calibrated using standard known weights (2.5kg, 3.0kg).</li>
+                                <li class="anim-elem"><strong>Unit Testing:</strong> Each of the hardware subsystems was tested individually before final integration.</li>
+                                <li class="anim-elem"><strong>Stress Testing:</strong> Intentional fault injection (e.g., heating the DS18B20 manually, introducing noise) successfully triggered the alarms in under 2 seconds.</li>
+                            </ul>
+                        </div>
+                        <div class="image-container anim-img" style="background: var(--bg-primary); padding: 4rem;">
+                            <svg fill="none" stroke="var(--accent-teal)" viewBox="0 0 24 24" style="width:100%; height:100%; opacity:0.8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 18: Results & Discussion -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper" style="justify-content: center;">
+                        <h2 class="slide-title anim-elem">Experimental Results</h2>
+                        <h3 class="slide-subtitle anim-elem">System Performance</h3>
+                        <div class="feature-grid">
+                            <div class="feature-card anim-elem">
+                                <h3>Thermal Stability</h3>
+                                <p>The SSR effectively cycled the heater ON at < 26°C and OFF > 35°C, maintaining the desired thermal envelope without fail.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>Weight Accuracy</h3>
+                                <p>The HX711 and Load cell achieved an impressive error margin of just ±0.01 kg (10 grams) across multiple tests.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>Communication Latency</h3>
+                                <p>Average response time from physical fault detection to the ESP32 firing a mobile notification was measured at ~1-2 seconds.</p>
+                            </div>
+                            <div class="feature-card anim-elem">
+                                <h3>Body Temp Precision</h3>
+                                <p>DS18B20 digital readings perfectly matched clinical reference thermometers with a maximum deviation of 0.1°C.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 19: Future Work -->
+            <div class="swiper-slide">
+                <div class="glass-panel">
+                    <div class="content-wrapper grid-2">
+                        <div class="image-container anim-img" style="background: var(--bg-primary); padding: 4rem;">
+                            <svg fill="none" stroke="var(--accent-blue)" viewBox="0 0 24 24" style="width:100%; height:100%; opacity:0.8;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <div class="text-content">
+                            <h2 class="slide-title anim-elem">Future Recommendations</h2>
+                            <h3 class="slide-subtitle anim-elem">Additional Biomedical Monitoring</h3>
+                            <ul>
+                                <li class="anim-elem" style="font-size: 1.15rem; line-height: 1.4;"><strong>Heart Rate Monitoring:</strong> Continuously measure pulse rate in real time for early detection of cardiac abnormalities such as bradycardia or tachycardia.</li>
+                                <li class="anim-elem" style="font-size: 1.15rem; line-height: 1.4;"><strong>Respiratory Rate Monitoring:</strong> Continuously measure breathing rate to facilitate early detection of respiratory distress, apnea episodes, or irregular breathing patterns.</li>
+                                <li class="anim-elem" style="font-size: 1.15rem; line-height: 1.4;"><strong>Electrocardiogram (ECG):</strong> Incorporate an ECG module to monitor electrical heart activity, providing valuable diagnostic information regarding cardiac function.</li>
+                                <li class="anim-elem" style="font-size: 1.15rem; line-height: 1.4;"><strong>Pulse Oximetry (SpO2):</strong> Integrate an oxygen saturation sensor to monitor blood oxygen levels, significantly improving the overall physiological assessment of the newborn.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 20: The Team -->
+            <div class="swiper-slide">
+                <div class="glass-panel" style="padding: 2rem;">
+                    <div class="content-wrapper text-content" style="align-items: center; text-align: center;">
+                        <h2 class="slide-title anim-elem" style="font-size: 3rem;">The Team</h2>
+                        <h3 class="slide-subtitle anim-elem" style="margin-bottom: 1rem;">Menoufia University - 2025/2026</h3>
+                        
+                        <!-- Formatted Names Grid -->
+                        <div class="team-grid anim-elem">
+                            <div class="team-member">Mohamed Khaled Zahran</div>
+                            <div class="team-member">Fedaa Asem Rabie</div>
+                            <div class="team-member">Nada Afify Abd Almotaleb</div>
+                            <div class="team-member">Hana Mohammed Hegazy</div>
+                            <div class="team-member">Amal Abdo Ragh</div>
+                            
+                            <div class="team-member">Mariam Sherif Hegazy</div>
+                            <div class="team-member">AbdElrahman Tarek Eldegwy</div>
+                            <div class="team-member">Moamen Waleed Basiony</div>
+                            <div class="team-member">Mohammed El-sayed Heikal</div>
+                            <div class="team-member">Abdullah Ali AbdElfattah</div>
+                            
+                            <div class="team-member">Basem Hatem Awad</div>
+                            <div class="team-member">Ahmed Mohammed Lotfy</div>
+                            <div class="team-member">Khaled Rizk Ebrahim</div>
+                            <div class="team-member">Ahmed Tarek Elsmlehy</div>
+                            <div class="team-member">Ahmed Hassan Saad</div>
+                        </div>
+                        
+                        <div class="supervisors-box anim-elem">
+                            <h3 style="color: var(--accent-teal); font-size: 1.2rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">Under the Supervision of</h3>
+                            <div style="display: flex; gap: 3rem; justify-content: center; flex-wrap: wrap;">
+                                <div>
+                                    <p style="font-size: 1.4rem; font-weight: 800; color: var(--accent-blue);">Prof. Dr. Yasser Ramah</p>
+                                    <p style="color: var(--text-light);">Dean of the Faculty</p>
+                                </div>
+                                <div>
+                                    <p style="font-size: 1.4rem; font-weight: 800; color: var(--accent-blue);">Prof. Dr. Ghada El-Banby</p>
+                                    <p style="color: var(--text-light);">Head of Biomedical Equipment Tech Dept.</p>
+                                </div>
+                                <div>
+                                    <p style="font-size: 1.4rem; font-weight: 800; color: var(--accent-blue);">Prof. Dr. Belal Ahmed Abo Zalam</p>
+                                    <p style="color: var(--text-light);">Project Supervisor</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 class="slide-title anim-elem" style="margin-top: 1.5rem; font-size: 2.5rem;">Thank You!</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- GSAP & Swiper & Mermaid Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true, theme: 'base', themeVariables: { primaryColor: '#f0fdfa', edgeLabelBackground:'#fff', primaryBorderColor: '#0ea5e9' }});</script>
+    <script src="script.js"></script>
+</body>
+</html>

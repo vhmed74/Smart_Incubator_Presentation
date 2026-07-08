@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f8fafc"/>
+  <!-- Base board -->
+  <rect x="50" y="40" width="100" height="120" rx="10" fill="#1e293b"/>
+  <!-- Pins -->
+  <rect x="70" y="150" width="10" height="30" fill="#94a3b8"/>
+  <rect x="90" y="150" width="10" height="30" fill="#94a3b8"/>
+  <rect x="110" y="150" width="10" height="30" fill="#94a3b8"/>
+  <rect x="130" y="150" width="10" height="30" fill="#94a3b8"/>
+  <!-- Sensor Mesh Cylinder -->
+  <ellipse cx="100" cy="80" rx="40" ry="20" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="60" y="80" width="80" height="50" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <ellipse cx="100" cy="130" rx="40" ry="20" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Mesh lines -->
+  <line x1="70" y1="90" x2="130" y2="90" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="70" y1="100" x2="130" y2="100" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="70" y1="110" x2="130" y2="110" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="70" y1="120" x2="130" y2="120" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Text -->
+  <text x="100" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#0ea5e9" text-anchor="middle">MQ-135</text>
+</svg>
